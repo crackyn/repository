@@ -1,0 +1,24 @@
+name: HA Second Core Add-on
+version: 2025.12.0
+slug: ha_second_core
+description: un a second home assistante core on port 8124 by default.
+url: https://github.com/crackyn/ha_second_core
+arch:
+  - armhf
+  - armv7
+  - amd64
+  - aarch64
+startup: services
+boot: auto
+ingress: false
+map:
+  - share:rw
+ports:
+  "8124": 8124
+ports_description:
+  "8124": "Port web for la second instance of Home Assistant"
+options:
+  BASE_CONFIG_PATH: "second-core"
+schema:
+  BASE_CONFIG_PATH: str
+image: "ghcr.io/crackyn/ha-second-core/{arch}"
