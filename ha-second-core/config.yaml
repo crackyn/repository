@@ -21,4 +21,4 @@ options:
   BASE_CONFIG_PATH: "second-core"
 schema:
   BASE_CONFIG_PATH: str
-image: "ghcr.io/crackyn/ha-second-core/{arch}"
+image: "ghcr.io/crackyn/ha-second-core"
