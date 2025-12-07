@@ -1,7 +1,7 @@
 name: HA Second Core Add-on
 version: "2025.12.1"
 slug: ha_second_core
-description: un a second home assistante core on port 8124 by default.
+description: Runs a second home assistant core on port 8124 by default.
 url: https://github.com/crackyn/ha_second_core
 arch:
   - armhf
